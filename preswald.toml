@@ -1,0 +1,20 @@
+[project]
+title = "IMDB DATA"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "IMDB DATA"
+logo = "images/tu_nueva_yo.png"
+favicon = "images/logo.ico"
+primaryColor = "#F89613"
+
+[data.imdb_top_5000_tv_shows]
+type = "csv"
+path = "data/imdb_top_5000_tv_shows.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
